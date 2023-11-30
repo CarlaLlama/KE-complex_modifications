@@ -1,0 +1,74 @@
+{
+	"title": "Remap Command + q/j/k to cut/copy/paste globally",
+    "maintainers": [
+        "carlallama"
+      ],
+	"rules": [
+		{
+			"description": "Remap Command + Option + q/j/k to cut/copy/paste globally",
+			"manipulators": [
+				{
+					"from": {
+						"key_code": "x",
+						"modifiers": {
+							"mandatory": [
+                                "command",
+                                "option"
+                            ]
+						}
+					},
+					"to": [
+						{
+							"key_code": "x",
+							"modifiers": [
+								"command"
+							]
+						}
+					],
+					"type": "basic"
+				},
+				{
+					"from": {
+						"key_code": "c",
+						"modifiers": {
+							"mandatory": [
+                                "command",
+                                "option"
+                            ]
+						}
+					},
+					"to": [
+						{
+							"key_code": "c",
+							"modifiers": [
+								"command"
+							]
+						}
+					],
+					"type": "basic"
+				},
+                {
+					"from": {
+						"key_code": "v",
+						"modifiers": {
+							"mandatory": [
+                                "command",
+                                "option"
+                            ]
+						}
+					},
+					"to": [
+						{
+							"key_code": "v",
+							"modifiers": [
+								"command"
+							]
+						}
+					],
+					"type": "basic"
+				},
+
+			]
+		}
+	]
+}

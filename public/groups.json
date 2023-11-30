@@ -771,6 +771,10 @@
         {
           "path": "json/multi_n.json",
           "extra_description_path": "extra_descriptions/multi_n.html"
+        },
+        {
+          "path": "json/copy_pasta_for_dvorak.json",
+          "extra_description_path": "extra_descriptions/copy_pasta_for_dvorak.html"
         }
       ]
     },
